@@ -1,0 +1,25 @@
+Troll v 1.0
+Needed for this to work:
+Jquery
+
+HOWTO:
+Include this in in 
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="troll-1.0.js" type="text/javascript"></script>	
+</head>
+
+EXAMPLE:
+<div id="content" class="classname tl:background(red)"> OR
+<div id="content" class="tl:background(red)">
+
+Will result in a background color red for divs
+
+TODOS:
+Fix multi injections like this:
+<div id="content" class="tl:background(red), border(1px solid red)">
+
+WHY:
+Simple, with use of a grid system we can include the style like poistioning or colors after grid_XX directly in our class. This will save time and so on...
+
+Have fun!
